@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTM test</title>
+    <style>
+    * {
+      box-sizing: border-box;
+      font-family: system-ui;
+    }
+    .flex {
+      display: flex;
+    }
+    .test-link {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      border: 1px solid #e53e3e;
+      border-radius: 0.5rem;
+      padding: 1.25em 2em;
+    }
+    .test-link svg {
+      display: block;
+      width: 2rem;
+      height: 2rem;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="page">
+        <div class="flex">
+          <a href="https://laravel.com/" class="test-link" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M5 3a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2V5a2 2 0 00-2-2H5zm9 4a1 1 0 10-2 0v6a1 1 0 102 0V7zm-3 2a1 1 0 10-2 0v4a1 1 0 102 0V9zm-3 3a1 1 0 10-2 0v1a1 1 0 102 0v-1z" clip-rule="evenodd" />
+            </svg>
+            <span>Test link</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
